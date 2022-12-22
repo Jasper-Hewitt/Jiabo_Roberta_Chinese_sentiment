@@ -1,7 +1,6 @@
 # privatestuff
 
-TODO: - add this for all of the candidates https://github.com/Jasper-Hewitt/privatestuff/blob/main/Chiang_overtime_plot.ipynb. maybe also put them next to each other. Also try to figure out how to make it bigger!! I will have to try to find a way to keep the date in there the whole time, or append it back to the dataframe after it is processed by BERT!
-
+TODO: - add this for all of the candidates https://github.com/Jasper-Hewitt/privatestuff/blob/main/Chiang_overtime_plot.ipynb. maybe also put them next to each other. Also try to figure out how to make it bigger!! JUST TAKE DATE INTO BERT LIKE I DID HERE https://github.com/Jasper-Hewitt/privatestuff/blob/main/ChiangWanan_Twitter_predict_unlabelled_data.ipynb. That appears to be no problem.
 
 
 Final project data science. 
