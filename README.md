@@ -1,4 +1,9 @@
 # privatestuff
+
+TODO: - add this for all of the candidates https://github.com/Jasper-Hewitt/privatestuff/blob/main/Chiang_overtime_plot.ipynb. maybe also put them next to each other. Also try to figure out how to make it bigger!!
+
+
+
 Final project data science. 
 Total data collected through scraper: 5113 （蔣萬安：1476， 黃珊珊：1688， 陳時中：1950）
 
