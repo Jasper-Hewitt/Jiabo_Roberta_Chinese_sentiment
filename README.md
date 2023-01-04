@@ -1,5 +1,15 @@
 # Final project
 
+fine-tuned model (notebook)
+
+Sentiment analysis (notebook)
+
+training notebook (notebook)
+
+scraper (notebook)
+
+Summary 
+In this project we do a sentiment analysis of the 2022 Taipei mayoral elections on Twitter. To this end, 
 
 
 TODO: 
