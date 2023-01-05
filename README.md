@@ -1,4 +1,4 @@
-# Final project
+# Jiabo/Roberta_Chinese_sentiment
 
 ## Summary
 In this project we set out to do a Chinese binary sentiment analysis (pos/neg) of the 2022 Taipei mayoral elections on Twitter. To this end, we fine-tuned hfl/chinese-roberta-wwm-ext on a training dataset with 20 286 manually labelled posts (negative: 13917 / positive: 6369). In order to compensate for our unbalanced training data we adjusted the class weights to 1.457642 and 3.185115, respectively. The model scores an accuracy of 0.9058 on our testing dataset. 
