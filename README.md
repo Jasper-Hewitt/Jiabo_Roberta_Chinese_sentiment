@@ -17,7 +17,7 @@ More information about the training process can be found in the paper, including
 
 ## instructions 
 
-### predict and visualize your own file
+### predict and visualize your own data
  If you have an excel file in the same format as the files in our data folder, you can simply replace the data for some of the candidates with your own data. For example, you can replace 'scrap_shanshan.xlsx' in pd.read_excel('/content/scrap_shanshan.xlsx') with your own .xlsx file, and run the code. your file does not necessarily have to be tweets. Weibo posts or anything else will also work; the regex is broad enough to remove most of the noise. 
 
 ### scrape more tweets
