@@ -1,29 +1,21 @@
 # Final project
 
-fine-tuned model (notebook)
+Sentiment analysis (https://github.com/Jasper-Hewitt/final_project_elections/blob/main/ElectionSentiment.ipynb)
 
-Sentiment analysis (notebook)
+fine-tuned model on Hugging Face (https://huggingface.co/Jiabo/Roberta_Chinese_sentiment)
 
-training notebook (notebook)
+training notebook (https://github.com/Jasper-Hewitt/final_project_elections/blob/main/Roberta_train_postest_weight_1epoch.ipynb)
 
-scraper (notebook)
+scraper (https://github.com/Jasper-Hewitt/final_project_elections/blob/main/tweet_scraper.ipynb)
 
-Summary 
-In this project we do a sentiment analysis of the 2022 Taipei mayoral elections on Twitter. To this end, 
+## Summary
+In this project we set out to do a Chinese binary sentiment analysis (pos/neg) of the 2022 Taipei mayoral elections on Twitter. To this end, we fine-tuned hfl/chinese-roberta-wwm-ext on a training dataset with 20 286 manually labelled posts (positive: 13917 / negative: 6369). In order to compensate for our unbalanced training data we adjusted the class weights to 1.457642 and 3.185115, respectively. The model scores an accuracy 0.9058 on our testing dataset. 
 
+We then used tweet_scraper to collect over 9285 tweets （Chiang Wan-an：2755， Huang Shan-shan：1688， Chen Shih-chung：4842), let our model predict the sentiment, and plotted the results in several charts. 
 
-TODO: 
-- Make sure that all the data is in this repo, some of it is still in the other private repo now! 不好
+More information about the training process can be found in the paper, including an elaborate table that explores different training possibilities. (https://github.com/Jasper-Hewitt/final_project_elections/blob/main/paper_%26_presentation/Jiabo:Roberta_Chinese_sentiment.pdf)  
 
-- add this for all of the candidates https://github.com/Jasper-Hewitt/privatestuff/blob/main/Chiang_overtime_plot.ipynb. maybe also put them next to each other. Also try to figure out how to make it bigger!! JUST TAKE DATE INTO BERT LIKE I DID HERE https://github.com/Jasper-Hewitt/privatestuff/blob/main/ChiangWanan_Twitter_predict_unlabelled_data.ipynb. That appears to be no problem.
-
-- add a twin positive Y axis or something, see chat with owen, screenshot, and this link that Owen sent me https://stackoverflow.com/questions/19952290/how-to-align-the-bar-and-line-in-matplotlib-two-y-axes-chart
+## instructions 
 
 
 
-Final project data science. 
-Total data collected through scraper: 5113 （蔣萬安：1476， 黃珊珊：1688， 陳時中：1950）
-
-I also added 高虹安: 1850. This would bring the total to: 6963
-
-to-do put everything in one notebook and try to make a cool graph that combines all the findings into one figure
