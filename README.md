@@ -32,3 +32,4 @@ training notebook (https://github.com/Jasper-Hewitt/final_project_elections/blob
 tweet_scraper (https://github.com/Jasper-Hewitt/final_project_elections/blob/main/tweet_scraper.ipynb)
 
 paper (https://github.com/Jasper-Hewitt/final_project_elections/blob/main/paper_%26_presentation/Jiabo_Roberta_Chinese_sentiment.pdf)  
+PPT (https://github.com/Jasper-Hewitt/final_project_elections/blob/main/paper_%26_presentation/PPT_Jiabo_Roberta_Chinese_sentiment.pptx)
